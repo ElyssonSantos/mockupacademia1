@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="grad-sq" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FF87" />
+      <stop offset="100%" stop-color="#60EFFF" />
+    </linearGradient>
+  </defs>
+  <!-- Circle Shield Background -->
+  <circle cx="100" cy="85" r="55" fill="none" stroke="url(#grad-sq)" stroke-width="4" stroke-dasharray="6 4" />
+  <!-- Dumbbell Icon -->
+  <g transform="translate(50, 50)">
+    <rect x="10" y="25" width="10" height="20" rx="2" fill="url(#grad-sq)" />
+    <rect x="22" y="18" width="10" height="34" rx="2" fill="url(#grad-sq)" />
+    <rect x="34" y="32" width="32" height="6" rx="2" fill="#FFFFFF" />
+    <rect x="68" y="18" width="10" height="34" rx="2" fill="url(#grad-sq)" />
+    <rect x="80" y="25" width="10" height="20" rx="2" fill="url(#grad-sq)" />
+  </g>
+  <!-- Text -->
+  <text x="100" y="160" text-anchor="middle" font-family="'Inter', 'Montserrat', sans-serif" font-weight="900" font-size="16" fill="#FFFFFF" letter-spacing="2">
+    SUA <tspan fill="#00FF87">ACADEMIA</tspan>
+  </text>
+  <text x="100" y="180" text-anchor="middle" font-family="'Inter', 'Montserrat', sans-serif" font-weight="600" font-size="10" fill="#A0AEC0" letter-spacing="3">
+    SUA LOGO AQUI
+  </text>
+</svg>

@@ -38,8 +38,8 @@ export function Loadscreen({ onComplete }: { onComplete: () => void }) {
     <div className={`loadscreen ${isFadingOut ? 'fade-out' : ''}`}>
       <div className="loadscreen-content">
         <div className="loadscreen-logo-container">
-          <img src="/images/logo-nova.png" alt="Aragas Fitness Loading" className="loadscreen-logo-dim" width="200" height="200" />
-          <img src="/images/logo-nova.png" alt="Aragas Fitness Loading" className="loadscreen-logo-bright" width="200" height="200" />
+          <img src="/images/logo-placeholder-square.svg" alt="Sua Academia Loading" className="loadscreen-logo-dim" width="200" height="200" />
+          <img src="/images/logo-placeholder-square.svg" alt="Sua Academia Loading" className="loadscreen-logo-bright" width="200" height="200" />
         </div>
         <div className="loadscreen-progress">{progress}%</div>
       </div>

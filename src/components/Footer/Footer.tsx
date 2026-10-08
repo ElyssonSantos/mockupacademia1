@@ -8,7 +8,7 @@ export function Footer() {
       <div className="container footer-container">
         <div className="footer-col">
           <div className="footer-logo">
-            <img src="/images/logo-nova.png" alt="Aragas Fitness Logo" className="footer-logo-img" width="100" height="100" />
+            <img src="/images/logo-placeholder-square.svg" alt="Sua Academia Logo" className="footer-logo-img" width="100" height="100" />
           </div>
           <p className="footer-slogan">
             Cada detalhe inspira. Cada treino transforma.
@@ -21,13 +21,13 @@ export function Footer() {
             <li>
               <MapPin className="footer-icon" size={18} />
               <span>
-                Rua A6 N67<br />
-                Conjunto Augusto Franco
+                Rua Exemplo, 123<br />
+                Bairro Modelo, Cidade - UF
               </span>
             </li>
             <li>
               <Phone className="footer-icon" size={18} />
-              <span>(79) 99815-3958</span>
+              <span>(00) 99999-9999</span>
             </li>
           </ul>
         </div>
@@ -47,11 +47,11 @@ export function Footer() {
         <div className="footer-col">
           <h2 className="footer-title">REDES SOCIAIS</h2>
           <div className="footer-socials">
-            <a href="https://www.instagram.com/aragas.fitness/" target="_blank" rel="noopener noreferrer" className="social-link">
+            <a href="https://www.instagram.com/sua.academia/" target="_blank" rel="noopener noreferrer" className="social-link">
               <Instagram size={20} />
               Instagram
             </a>
-            <a href="https://wa.me/5579998153958" target="_blank" rel="noopener noreferrer" className="social-link">
+            <a href="https://wa.me/5500999999999" target="_blank" rel="noopener noreferrer" className="social-link">
               <Phone size={20} />
               WhatsApp
             </a>
@@ -59,24 +59,16 @@ export function Footer() {
 
           <div className="mt-4">
             <h2 className="footer-title">MAIS INFORMAÇÕES</h2>
-            <a href="/trabalhe-conosco" className="social-link">
+            <a href="#contato" className="social-link">
               Trabalhe conosco
             </a>
           </div>
-          {/* HORÁRIO DE FUNCIONAMENTO (A DEFINIR NO FUTURO) 
-          <div className="footer-hours mt-4">
-            <h2 className="footer-title">HORÁRIOS</h2>
-            <p>Segunda a Sexta: --:-- às --:--</p>
-            <p>Sábado: --:-- às --:--</p>
-          </div>
-          */}
         </div>
       </div>
 
       <div className="footer-bottom">
         <div className="container footer-bottom-container">
-          <p>© 2026 Aragas Fitness. Todos os direitos reservados.</p>
-          {/* <p className="footer-bottom-slogan">Saúde • Disciplina • Resultados</p> */}
+          <p>© 2026 Sua Academia. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

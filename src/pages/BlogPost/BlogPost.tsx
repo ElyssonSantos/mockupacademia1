@@ -11,12 +11,12 @@ export function BlogPost() {
   const { id } = useParams<{ id: string }>();
   const post = blogPosts.find((p) => p.id === Number(id));
   const [isLightMode, setIsLightMode] = useState(() => {
-    return localStorage.getItem('aragas-blog-theme') === 'light';
+    return localStorage.getItem('gym-blog-theme') === 'light';
   });
 
   const toggleTheme = () => {
     setIsLightMode(!isLightMode);
-    localStorage.setItem('aragas-blog-theme', !isLightMode ? 'light' : 'dark');
+    localStorage.setItem('gym-blog-theme', !isLightMode ? 'light' : 'dark');
   };
 
   if (!post) {
@@ -73,7 +73,7 @@ export function BlogPost() {
 
           <figure className="post-image-container">
             <img src={post.image} alt={post.title} className="post-main-image" width="800" height="400" />
-            <figcaption>Imagem ilustrativa - Aragas Fitness</figcaption>
+            <figcaption>Imagem ilustrativa - Sua Academia</figcaption>
           </figure>
 
           <div 

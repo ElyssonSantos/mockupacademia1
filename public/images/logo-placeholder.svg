@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100" width="300" height="100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FF87" />
+      <stop offset="100%" stop-color="#60EFFF" />
+    </linearGradient>
+  </defs>
+  <!-- Emblem / Dumbbell Icon -->
+  <g transform="translate(10, 15)">
+    <rect x="10" y="25" width="12" height="20" rx="3" fill="url(#grad)" />
+    <rect x="24" y="18" width="12" height="34" rx="3" fill="url(#grad)" />
+    <rect x="38" y="32" width="24" height="6" rx="2" fill="#FFFFFF" />
+    <rect x="64" y="18" width="12" height="34" rx="3" fill="url(#grad)" />
+    <rect x="78" y="25" width="12" height="20" rx="3" fill="url(#grad)" />
+  </g>
+  <!-- Text -->
+  <text x="115" y="45" font-family="'Inter', 'Montserrat', sans-serif" font-weight="900" font-size="22" fill="#FFFFFF" letter-spacing="2">
+    SUA <tspan fill="#00FF87">LOGOMARCA</tspan>
+  </text>
+  <text x="115" y="68" font-family="'Inter', 'Montserrat', sans-serif" font-weight="600" font-size="12" fill="#A0AEC0" letter-spacing="4">
+    SUA ACADEMIA AQUI
+  </text>
+</svg>

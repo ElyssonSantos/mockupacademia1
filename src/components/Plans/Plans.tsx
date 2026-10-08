@@ -3,8 +3,8 @@ import './Plans.css';
 
 export function Plans() {
   const openWhatsApp = (planName: string) => {
-    const text = encodeURIComponent(`Olá! Tenho interesse no plano ${planName} da Aragas Fitness.`);
-    window.open(`https://wa.me/5579998153958?text=${text}`, '_blank');
+    const text = encodeURIComponent(`Olá! Tenho interesse no plano ${planName}.`);
+    window.open(`https://wa.me/5500999999999?text=${text}`, '_blank');
   };
 
   return (
@@ -19,7 +19,7 @@ export function Plans() {
           <p className="plans-subtitle">
             Escolha o plano ideal para você e comece hoje mesmo!
           </p>
-          <button className="btn-fale-com-agente" onClick={() => window.open('https://wa.me/5579998153958', '_blank')}>
+          <button className="btn-fale-com-agente" onClick={() => window.open('https://wa.me/5500999999999', '_blank')}>
             <MessageCircle size={18} /> FALE COM A GENTE
           </button>
         </div>

@@ -6,14 +6,13 @@ export function Hero() {
     <section id="home" className="hero">
       <div className="hero-background">
         <div className="hero-overlay"></div>
-        <video
-          src="/images/hero.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-          poster="/images/hero.jpg"
+        <img
+          src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1920&h=1080&auto=format&fit=crop"
+          alt="Sua Academia Treino"
           className="hero-img"
+          onError={(e) => {
+            (e.target as HTMLImageElement).src = '/images/hero.jpg';
+          }}
         />
       </div>
 

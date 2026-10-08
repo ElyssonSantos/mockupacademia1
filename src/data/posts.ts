@@ -17,7 +17,7 @@ export const blogPosts: BlogPost[] = [
     date: '24 ABR 2026',
     image: 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=800&h=600&auto=format&fit=crop',
     excerpt: 'Descubra como manter o foco e alcançar seus resultados sem desistir no meio do caminho.',
-    author: 'Equipe Aragas',
+    author: 'Equipe da Academia',
     content: `
       <p>A disciplina é o fator mais importante para quem deseja alcançar resultados reais na academia. Muitas pessoas começam com entusiasmo, mas acabam desistindo após as primeiras semanas. Para evitar que isso aconteça com você, separamos 5 dicas fundamentais:</p>
       
@@ -44,7 +44,7 @@ export const blogPosts: BlogPost[] = [
     date: '18 ABR 2026',
     image: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=800&h=600&auto=format&fit=crop',
     excerpt: 'Entenda por que a sua dieta é tão importante quanto o peso que você levanta.',
-    author: 'Nutricionista Aragas',
+    author: 'Nutricionista',
     content: `
       <p>Muitos acreditam que apenas o treino pesado é suficiente para atingir o corpo dos sonhos. No entanto, a frase "os músculos são construídos na cozinha" nunca foi tão verdadeira. A alimentação e o treino andam de mãos dadas, e um não funciona bem sem o outro.</p>
 
@@ -57,7 +57,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Hidratação é Fundamental</h2>
       <p>A água compõe grande parte dos nossos músculos. A desidratação pode reduzir significativamente o desempenho e aumentar o risco de lesões. Beba água antes, durante e após o treino.</p>
 
-      <p>Lembre-se sempre de consultar um profissional de nutrição para adequar a dieta às suas necessidades e objetivos específicos. Na Aragas Fitness, estamos sempre prontos para te orientar a buscar o melhor acompanhamento.</p>
+      <p>Lembre-se sempre de consultar um profissional de nutrição para adequar a dieta às suas necessidades e objetivos específicos. Na nossa academia, estamos sempre prontos para te orientar a buscar o melhor acompanhamento.</p>
     `
   }
 ];

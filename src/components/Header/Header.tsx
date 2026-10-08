@@ -26,9 +26,9 @@ export function Header() {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="header-container container">
         <a href="#home" className="logo">
-          <img src="/images/logo-nova-v.png" alt="Aragas Fitness Logo" className="header-logo-img" width="150" height="100" />
+          <img src="/images/logo-placeholder.svg" alt="Sua Academia Logo" className="header-logo-img" width="150" height="50" />
           <span className={`logo-text ${isScrolled ? 'visible' : ''}`}>
-            ARAGAS <span className="text-green">FITNESS</span>
+            SUA <span className="text-green">ACADEMIA</span>
           </span>
         </a>
 
@@ -42,7 +42,7 @@ export function Header() {
           </ul>
         </nav>
 
-        <a href="https://wa.me/5579998153958" target="_blank" rel="noopener noreferrer" className="header-cta desktop-only">
+        <a href="https://wa.me/5500999999999" target="_blank" rel="noopener noreferrer" className="header-cta desktop-only">
           Fale Conosco
         </a>
 
@@ -67,7 +67,7 @@ export function Header() {
           ))}
         </ul>
         <a
-          href="https://wa.me/5579998153958"
+          href="https://wa.me/5500999999999"
           target="_blank"
           rel="noopener noreferrer"
           className="mobile-cta"

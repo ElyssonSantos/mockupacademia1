@@ -9,13 +9,13 @@ export function FinalCTA() {
         {/* Placeholder image, fallback to hero if cta_bg is not available yet */}
         <img 
           src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1600&h=600&auto=format&fit=crop" 
-          alt="Vem pra Aragas Fitness" 
+          alt="Vem pra Sua Academia" 
           className="final-cta-img" 
           loading="lazy"
           width="1600"
           height="600"
           onError={(e) => {
-            (e.target as HTMLImageElement).src = '/images/hero.webp';
+            (e.target as HTMLImageElement).src = '/images/hero.jpg';
           }} 
         />
       </div>
@@ -24,7 +24,7 @@ export function FinalCTA() {
         <div className="cta-left reveal">
           <h2 className="cta-title">
             VEM PRA<br />
-            <span className="text-green">ARAGAS FITNESS</span>
+            <span className="text-green">SUA ACADEMIA</span>
           </h2>
           <p className="cta-subtitle">
             SUA MELHOR VERSÃO COMEÇA AQUI.
@@ -41,7 +41,7 @@ export function FinalCTA() {
               Tire suas dúvidas, agende uma visita e venha fazer parte da nossa família.
             </p>
             <a 
-              href="https://wa.me/5579998153958" 
+              href="https://wa.me/5500999999999" 
               target="_blank" 
               rel="noopener noreferrer"
               className="btn-whatsapp-large"

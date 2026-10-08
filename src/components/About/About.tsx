@@ -6,14 +6,14 @@ export function About() {
     <section id="sobre" className="about section-padding">
       <div className="container about-container">
         <div className="about-content">
-          <p className="section-subtitle reveal">SOBRE A ARAGAS FITNESS</p>
+          <p className="section-subtitle reveal">SOBRE A SUA ACADEMIA</p>
           <h2 className="section-title reveal">
             DISCIPLINA HOJE, <br />
             <span className="text-green">RESULTADOS AMANHÃ.</span>
           </h2>
 
           <p className="about-text reveal">
-            A Aragas Fitness é mais do que uma academia, é um espaço feito para quem leva a saúde a sério. Aqui, você treina com conforto, segurança e o incentivo de profissionais que realmente se importam com seu progresso.
+            Nossa academia é mais do que um espaço de treino, é um local feito para quem leva a saúde a sério. Aqui, você treina com conforto, segurança e o incentivo de profissionais que realmente se importam com seu progresso.
           </p>
 
           <div className="about-highlights reveal">
@@ -30,7 +30,17 @@ export function About() {
 
         <div className="about-image-wrapper reveal">
           <div className="about-image-decoration"></div>
-          <img src="/images/interior.jpg" alt="Estrutura da Aragas Fitness" className="about-image" loading="lazy" width="600" height="450" />
+          <img 
+            src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=800&h=600&auto=format&fit=crop" 
+            alt="Estrutura da Academia" 
+            className="about-image" 
+            loading="lazy" 
+            width="600" 
+            height="450"
+            onError={(e) => {
+              (e.target as HTMLImageElement).src = '/images/interior.jpg';
+            }} 
+          />
 
           <div className="about-badges">
             <div className="badge">

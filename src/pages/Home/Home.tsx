@@ -15,12 +15,12 @@ import { useReveal } from '../../hooks/useReveal';
 export function Home() {
   useReveal();
   const [isLoading, setIsLoading] = useState(() => {
-    return sessionStorage.getItem('aragas-loaded') !== 'true';
+    return sessionStorage.getItem('gym-loaded') !== 'true';
   });
 
   const handleLoadComplete = () => {
     setIsLoading(false);
-    sessionStorage.setItem('aragas-loaded', 'true');
+    sessionStorage.setItem('gym-loaded', 'true');
   };
 
   return (
